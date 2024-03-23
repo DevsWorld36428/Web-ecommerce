@@ -1,0 +1,75 @@
+/* * css variables */
+:root {
+  --mainBlue: #2a2a72;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
+}
+
+/* * universal elements */
+body {
+  font-family: "Oswald", sans-serif !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark);
+}
+
+/* text title */
+.text-title {
+  font-family: "Permanent Maker", cursive;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-weight: bold;
+}
+.text-blue {
+  color: var(--lightBlue);
+}
+
+/* cart buttons */
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainDark);
+  border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  -ms-border-radius: 0 !important;
+  -o-border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDark) !important;
+}
+.btn-black:hover {
+  background: var(--mainDark) !important;
+  color: var(--mainWhite) !important;
+}
+
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainYellow);
+}
+
+/* footer style */
+.footer {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #222;
+}
+.footer h2,
+p {
+  color: white;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: var(--lightBlue);
+  text-decoration: underline;
+  transition: var(--mainTransition);
+  -webkit-transition: var(--mainTransition);
+  -moz-transition: var(--mainTransition);
+  -ms-transition: var(--mainTransition);
+  -o-transition: var(--mainTransition);
+}
