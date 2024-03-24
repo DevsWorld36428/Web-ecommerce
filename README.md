@@ -10,4 +10,4 @@
 
 <!-- project link -->
 
-[mobile-shop]: https://react-e-commerse-project-mobile-shop.netlify.app
+![image](https://github.com/TalentedDev36428/Web-ecommerce/blob/main/example.png)
