@@ -12,6 +12,7 @@ import App from "./App/App";
 // * import contextAPI
 import { ProductProvider } from "./ContextAPI/Context";
 
+//ReactDom Rendor function
 ReactDOM.render(
   <ProductProvider>
     <Router>
